@@ -1,2 +1,3 @@
 # TODO-JS
-Simple TODO-App
+
+Einfache TODO-App in ES5 und ES6.
