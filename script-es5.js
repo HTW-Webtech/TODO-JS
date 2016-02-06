@@ -109,7 +109,7 @@ Todo.prototype.remove = function() {
  */
 Todo.prototype.render = function() {
    var checked = this.isDone ? 'checked' : '';
-   this.element.innerHTML = '<input type="checkbox" ' + checked + '> ' + this.title + ' <button>☠</button>';
+   this.element.innerHTML = '<input type="checkbox" ' + checked + '> ' + this.title + ' <button>❌</button>';
    this.element.classList.toggle('done', this.isDone);
    return this.element;
 };
